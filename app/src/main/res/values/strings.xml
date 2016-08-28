@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">NanoMusic</string>
+    <string name="discover_name">Discover Music</string>
+    <string name="popular_name">Popular Music</string>
+    <string name="purchase_name">Purchase Songs</string>
+    <string name="owned_name">Purchased Songs</string>
+    <string name="buy_it">Buy The Song Now</string>
+    <string name="song_bought">You have Successfully Purchased This Song</string>
+    <string name="songs_list">Your Purchased Songs Will Appear here</string>
+    <string name="disabled_button_text">You Got It!</string>
+
+    <string name="discover_title">Discover New Music</string>
+    <string name="title">Title: </string>
+    <string name="artist">Artist: </string>
+    <string name="genre">Genre: </string>
+
+    <string name="title_default">Title Goes Here</string>
+    <string name="artist_default">Artist Goes Here</string>
+    <string name="genre_default">Genre Goes Here</string>
+
+    <string name="buy_now">Buy This Songs</string>
+
+    <string name="dislike_dummy_text">You Disliked This, We will Try Harder</string>
+    <string name="play_dummy_text">Music Is Playing</string>
+    <string name="pause_dummy_text">Music Is Paused</string>
+    <string name="skip_dummy_text">Song Skipped</string>
+    <string name="like_dummy_text">You Like this Song</string>
+
+
+    <string-array name="genere_list">
+        <item>Select Genre</item>
+        <item>Rock And Roll</item>
+        <item>Country</item>
+        <item>Blues</item>
+        <item>Rap</item>
+        <item>Indie</item>
+        <item>Random</item>
+    </string-array>
+
+    <string name="select_genre_toast">Please Select A Genre</string>
+    <string name="discover_button">Discover Music</string>
+    <string name="popular_button">Popular Music</string>
+    <string name="purchased_button">Purchased Music</string>
+
+    <string name="main_activity_desc">Allows User to Pick the Genre for the Music
+                                        and Either Select Discover or Popular Music
+                                        Discover Music Button Will lead to activity
+                                        that will play random songs that fit the Genre
+                                        Popular Music Button Will lead to Activity
+                                        That Plays songs that are Popular At the time.
+                                        Purchased Music Button Will Take User to activity
+                                        That Displays Purchased Songs
+    </string>
+
+    <string name="discover_activity_desc">Plays the random Song that Fits the Genre
+                                            provided by the user that is received from
+                                            MainAcitivity. Allows user to Dislike a Song,
+                                            Like a song. Both Options will send the Info to the
+                                            Server VIA API Call to be used in the Song Selection Logic
+                                            User Can Also Play/Pause or Skip songs.
+                                            User also has the option of Buy This Song
+                                            When the button is clicked the User is taken to Purchase Song Activity
+                                            Where user can buy the song and It will be added to this account and can be either
+                                            Streamed or Downloaded from the OwnedMusic Acitivity
+                                            The Songs will be Streamed through any sort of Online Streaming Service</string>
+
+        <string name="popular_activity_desc">Plays the Song that Fits the Genre
+                                            provided by the user that is received from
+                                            MainAcitivity that are Rated Popular on The Charts. Allows user to Dislike a Song,
+                                            Like a song. Both Options will send the Info to the
+                                            Server VIA API Call to be used in the Song Selection Logic
+                                            User Can Also Play/Pause or Skip songs.
+                                            User also has the option of Buy This Song
+                                            When the button is clicked the User is taken to Purchase Song Activity
+                                            Where user can buy the song and It will be added to this account and can be either
+                                            Streamed or Downloaded from the OwnedMusic Acitivity
+                                            The Songs will be Streamed through any sort of Online Streaming Service</string>
+    <string name="owned_songs_activity_desc">Will show the list of songs purchased by the user. User Should be able to
+                                                to download songs from this page, or stream songs from this page.
+                                                The List of songs will be received from the server that Will be tied to the Account</string>
+
+    <string name="purchase_songs_activity_desc">This Page Shows the Title, Artist and Genre Of the song that is passed from the previous activity
+                                                The User should be able to purchase the song using his Google Account.
+                                                The song is then added to the Account on the Server and then later sent to the
+                                                OwnedSongs activity where user can play it or download it from.</string>
+
+
+</resources>

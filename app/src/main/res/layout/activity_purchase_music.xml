@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="com.example.volks.nanomusic.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_linear_layout"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/purchase_title"
+            android:text="@string/purchase_name"
+            android:textSize="@dimen/app_name_size"
+            android:textColor="@color/default_text_black"
+            android:padding="@dimen/general_padding"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/song_detail"
+            android:textSize="@dimen/app_name_size"
+            android:textColor="@color/default_text_black"
+            android:padding="@dimen/general_padding"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/purchase_this"
+            android:text="@string/buy_it"
+            android:layout_margin="@dimen/general_padding"
+            android:textColor="@color/default_text_black"
+            android:clickable="true"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/purchase_page_desc"
+            android:background="@color/spinner_bg"
+            android:textColor="@color/default_text_black"
+            android:text="@string/purchase_songs_activity_desc"
+            android:padding="@dimen/general_padding"/>
+    </LinearLayout>
+</ScrollView>

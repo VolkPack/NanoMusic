@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/background"
+    tools:context="com.example.volks.nanomusic.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_linear_layout"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/app_title"
+            android:text="@string/app_name"
+            android:textSize="@dimen/app_name_size"
+            android:textColor="@color/default_text_black"
+            android:padding="@dimen/general_padding"/>
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/genere_select"
+            android:entries="@array/genere_list"
+            android:background="@color/spinner_bg"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/discover_button"
+            android:text="@string/discover_button"
+            android:layout_margin="@dimen/general_padding"
+            android:textColor="@color/default_text_black"
+            android:clickable="true"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/po_button_button"
+            android:text="@string/popular_button"
+            android:textColor="@color/default_text_black"
+            android:clickable="true"
+            android:layout_marginBottom="@dimen/general_padding"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/purchased"
+            android:text="@string/purchased_button"
+            android:textColor="@color/default_text_black"
+            android:clickable="true"
+            android:layout_marginBottom="@dimen/general_padding"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_page_desc"
+            android:background="@color/spinner_bg"
+            android:textColor="@color/default_text_black"
+            android:text="@string/main_activity_desc"
+            android:padding="@dimen/general_padding"/>
+    </LinearLayout>
+</ScrollView>
